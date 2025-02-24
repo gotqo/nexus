@@ -189,6 +189,8 @@ export default function Home() {
             <h1 className="text-5xl font-light tracking-tight text-black">
               Nexus Counter (DEVNET / Chain ID 393)
             </h1>
+	    <h2>Updated on 24 Feb 2025</h2>
+
             
             <div className="space-y-8">
               {!isConnected ? (
