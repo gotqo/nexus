@@ -3,13 +3,13 @@
 import { useState, useEffect, useCallback } from 'react'
 import { BrowserProvider, JsonRpcSigner, Contract } from 'ethers'
 
-const CONTRACT_ADDRESS = '0xD787EFb6744B2789F4FC65f434f91315e8020697'
+const CONTRACT_ADDRESS = '0xF4783847ad921Ee91Cb8722547A4a82D85C9627A'
 const CONTRACT_ABI = [
   "function increment() public",
   "function getCount() public view returns (uint256)"
 ]
 
-const NEXUS_CHAIN_ID = '0x188'
+const NEXUS_CHAIN_ID = '0x189'
 const NEXUS_RPC_URL = 'https://rpc.nexus.xyz/http'
 const EXPLORER_URL = 'https://explorer.nexus.xyz'
 
@@ -187,7 +187,7 @@ export default function Home() {
         <div className="max-w-4xl w-full px-4">
           <div className="space-y-12 text-center">
             <h1 className="text-5xl font-light tracking-tight text-black">
-              Nexus Counter
+              Nexus Counter (DEVNET / Chain ID 393)
             </h1>
             
             <div className="space-y-8">
